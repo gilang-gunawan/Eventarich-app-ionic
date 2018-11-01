@@ -26,47 +26,27 @@ export class StatistikPage {
   }
 
   showGender(){
-      let alert = this.alertCtrl.create();
-      alert.setTitle('Presentasi Gender');
-      alert.addInput({
-	      //type: 'checkbox',
-	      label: 'Male  		43%',
-	      //value: 'value1',
-	      //checked: true
-	    });
-
-	    alert.addInput({
-	      //type: 'checkbox',
-	      label: 'Female		57%',
-	      //value: 'value2'
-	    });
-        alert.addButton('Okay');
+      const alert = this.alertCtrl.create({
+      title: 'Statistik Event',
+      subTitle: 'Maaf data belum bisa ditampilkan',
+      buttons: ['OK']
+    });
     alert.present();
   }
 
   showUsia(){
-  let alert = this.alertCtrl.create();
-      alert.setTitle('Lihat Usia');
-      alert.addInput({
-	      //type: 'checkbox',
-	      label: 'Male  		43%',
-	      //value: 'value1',
-	      //checked: true
-	    });
-
-	    alert.addInput({
-	      //type: 'checkbox',
-	      label: 'Female		57%',
-	      //value: 'value2'
-	    });
-        alert.addButton('Okay');
+  const alert = this.alertCtrl.create({
+      title: 'Statistik Event',
+      subTitle: 'Maaf data belum bisa ditampilkan',
+      buttons: ['OK']
+    });
     alert.present();
   }
 
   showKota(){
   const alert = this.alertCtrl.create({
-      title: 'Logistik',
-      subTitle: 'Pesanan kamu sedang tahap proses penyampaian ke vendor',
+      title: 'Statistik Event',
+      subTitle: 'Maaf data belum bisa ditampilkan',
       buttons: ['OK']
     });
     alert.present();

@@ -1,8 +1,8 @@
 {
-  "name": "eventarich",
+  "name": "Eventarich",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "author": "Eventarich Team",
+  "homepage": "http://eventarich.com/",
   "private": true,
   "scripts": {
     "start": "ionic-app-scripts serve",
@@ -43,7 +43,7 @@
     "@ionic/app-scripts": "3.2.0",
     "typescript": "~2.6.2"
   },
-  "description": "An Ionic project",
+  "description": "Eventarich - #MakeItEasy",
   "cordova": {
     "plugins": {
       "cordova-plugin-whitelist": {},
